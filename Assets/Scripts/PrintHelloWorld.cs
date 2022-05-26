@@ -8,6 +8,7 @@ public class PrintHelloWorld : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello World!");
+        Debug.Log("Wassup");
     }
 
     // Update is called once per frame
