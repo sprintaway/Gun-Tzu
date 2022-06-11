@@ -26,7 +26,7 @@ public class Aim : MonoBehaviour
 
         Vector2 lookDir = mousePos - rb.position;
         //note that the sprite is pointed at Northwest direction.
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -135; //offset can edit here
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -135; //offset can edit here //normally is -90
 
         //apply to the player
         rb.rotation = angle;
