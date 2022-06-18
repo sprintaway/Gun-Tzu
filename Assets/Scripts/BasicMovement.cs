@@ -20,6 +20,12 @@ public class BasicMovement : MonoBehaviour
     
 
     // Update is called once per frame
+
+    void Awake() 
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+    
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
